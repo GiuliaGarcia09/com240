@@ -11,8 +11,8 @@
 #include<string.h>
 #include<locale.h>
 #include<winsock2.h>
-#include <sys/types.h>
-#include <windows.h>
+#include<sys/types.h>
+#include<windows.h>
 #define serv_porta 10222
 #define tam_buffer 1024
 
@@ -136,6 +136,7 @@ int main(){
   }
 }
 
+/* função de adicionar informações no repositório */
 int add_arquivo(){
   FILE *repositorio;
 
