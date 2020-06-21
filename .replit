@@ -1,0 +1,2 @@
+language = "c"
+run = "gcc -o exe ./trabalho_02/hello.c -lm && ./exe"
