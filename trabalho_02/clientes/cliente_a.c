@@ -165,7 +165,6 @@ int main(){
           }
         }
 
-        printf("\nTotal de pacotes recebidos: %de\n", pkt_cont);
 
         else{
           strcpy(buffer,"ack0");
@@ -210,10 +209,10 @@ int main(){
       }
     }
   }
-
   fclose(arquivo);
   system("pause");
 }
+
 
 /* função da soma de verificação */
 int checksum (char *buffer, int tam_msg,char *check){
