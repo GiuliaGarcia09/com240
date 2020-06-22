@@ -193,11 +193,8 @@ int main(){
 
           printf("Transferência concluida\n");
           break;
-        }
-
-        printf("\nTotal de pacotes recebidos: %de\n", pkt_cont);
-
-        else{
+          
+        }else{
           strcpy(buffer,"ack0");
 
           /* captura erro */
